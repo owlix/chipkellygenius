@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Chip Kelly, Genius?</title>
+  <meta name="description" content="Real-time football genius detection.">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--<link rel="icon" type="image/png" href="images/favicon.png">-->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68574279-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+ <div class="container">
+    <div class="row">
+        <div class="twelve column center">
+            <h1>Chip Kelly, Genius?</h1>
+            <h5>As the people tweet, the meter speaks.</h5>
+            <div class="copy">
+	            <p>Real time tweets analyzed for positive and negative sentiment.</p>
+            </div>
+
+            <ul class="ch-grid">
+                <li>
+                    <div class="ch-item ch-img-1">
+                        <div class="ch-info">
+                            <h3>Genius</h3>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="ch-item ch-img-2">
+                        <div class="ch-info">
+                            <h3>Idiot</h3>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div>
+                <div id="schedule">
+                    <div>
+                        <h5>2015 <br/>Standings</h5>
+                    </div>
+
+                    <div>
+                        <h5 id="standings"></h5>
+                    </div>
+
+                    <ul id="list">
+                    </ul>
+                </div>
+
+                <div class="meter">
+                    <span id="outer">
+                    	<span>IDIOT</span>
+                    	<span>GENIUS</span>
+						<span id="inner"></span>
+                    </span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/functions.js"></script>
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

@@ -1,0 +1,161 @@
+[05-Oct-2015 19:52:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 25
+[05-Oct-2015 19:52:31 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 25
+[05-Oct-2015 19:52:38 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 25
+[05-Oct-2015 19:54:40 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 26
+[05-Oct-2015 20:24:03 America/Chicago] PHP Fatal error:  Call to undefined function http_get() in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 8
+[05-Oct-2015 20:25:55 America/Chicago] PHP Fatal error:  Call to undefined function http_get() in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 8
+[05-Oct-2015 20:28:35 America/Chicago] PHP Fatal error:  Call to undefined function http_get() in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 8
+[05-Oct-2015 20:28:47 America/Chicago] PHP Fatal error:  Call to undefined function http_get() in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 8
+[05-Oct-2015 20:29:02 America/Chicago] PHP Fatal error:  Call to undefined function http_get() in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 8
+[05-Oct-2015 20:29:28 America/Chicago] PHP Fatal error:  Call to undefined function http_post_fields() in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 9
+[05-Oct-2015 20:39:52 America/Chicago] PHP Warning:  file_get_contents(http://sentiment.vivekn.com/api/text/): failed to open stream: HTTP request failed! HTTP/1.0 500 INTERNAL SERVER ERROR
+ in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 15
+[05-Oct-2015 20:40:17 America/Chicago] PHP Warning:  file_get_contents(http://sentiment.vivekn.com/api/text/): failed to open stream: HTTP request failed! HTTP/1.0 500 INTERNAL SERVER ERROR
+ in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 15
+[05-Oct-2015 20:42:08 America/Chicago] PHP Warning:  file_get_contents(http://sentiment.vivekn.com/api/text/): failed to open stream: HTTP request failed! HTTP/1.0 500 INTERNAL SERVER ERROR
+ in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 15
+[05-Oct-2015 20:47:31 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 5
+[05-Oct-2015 21:18:36 America/Chicago] PHP Parse error:  syntax error, unexpected '$url' (T_VARIABLE) in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 3
+[05-Oct-2015 21:38:51 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 11
+[05-Oct-2015 21:41:47 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 8
+[05-Oct-2015 21:45:18 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 8
+[05-Oct-2015 22:05:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 8
+[05-Oct-2015 22:07:05 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 8
+[05-Oct-2015 22:08:00 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 8
+[05-Oct-2015 22:15:11 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 7
+[05-Oct-2015 22:18:39 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 6
+[05-Oct-2015 22:40:26 America/Chicago] PHP Parse error:  syntax error, unexpected 'curl_setopt' (T_STRING), expecting ',' or ';' in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 20
+[05-Oct-2015 22:42:27 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 18
+[05-Oct-2015 22:47:43 America/Chicago] PHP Warning:  file_get_contents(http://sentiment.vivekn.com/api/text/): failed to open stream: HTTP request failed! HTTP/1.0 500 INTERNAL SERVER ERROR
+ in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 15
+[05-Oct-2015 22:53:22 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 3
+[05-Oct-2015 22:54:22 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 3
+[05-Oct-2015 22:56:56 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 3
+[05-Oct-2015 22:57:05 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 3
+[05-Oct-2015 22:58:59 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 3
+[05-Oct-2015 23:02:07 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 3
+[05-Oct-2015 23:04:17 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 3
+[05-Oct-2015 23:05:44 America/Chicago] PHP Parse error:  syntax error, unexpected '$fields' (T_VARIABLE) in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 6
+[05-Oct-2015 23:12:09 America/Chicago] PHP Parse error:  syntax error, unexpected '$fields' (T_VARIABLE) in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 6
+[06-Oct-2015 05:25:56 America/Chicago] PHP Parse error:  syntax error, unexpected '$fields' (T_VARIABLE) in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 6
+[06-Oct-2015 07:53:42 America/Chicago] PHP Parse error:  syntax error, unexpected '$fields' (T_VARIABLE) in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 6
+[06-Oct-2015 16:36:08 America/Chicago] PHP Parse error:  syntax error, unexpected '$fields' (T_VARIABLE) in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 6
+[06-Oct-2015 16:38:20 America/Chicago] PHP Parse error:  syntax error, unexpected '$fields' (T_VARIABLE) in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 6
+[06-Oct-2015 16:39:15 America/Chicago] PHP Parse error:  syntax error, unexpected '$fields' (T_VARIABLE) in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 6
+[06-Oct-2015 16:40:22 America/Chicago] PHP Parse error:  syntax error, unexpected '$fields' (T_VARIABLE) in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 6
+[06-Oct-2015 16:41:58 America/Chicago] PHP Parse error:  syntax error, unexpected '$fields' (T_VARIABLE) in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 6
+[06-Oct-2015 16:43:05 America/Chicago] PHP Parse error:  syntax error, unexpected '$fields' (T_VARIABLE) in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 6
+[06-Oct-2015 16:43:17 America/Chicago] PHP Parse error:  syntax error, unexpected '$fields' (T_VARIABLE) in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 6
+[06-Oct-2015 16:44:49 America/Chicago] PHP Parse error:  syntax error, unexpected '$fields' (T_VARIABLE) in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 6
+[06-Oct-2015 17:05:53 America/Chicago] PHP Warning:  Unterminated comment starting line 8 in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 8
+[06-Oct-2015 17:15:12 America/Chicago] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 19
+[06-Oct-2015 17:47:32 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 3
+[06-Oct-2015 17:54:01 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getSentiment.php on line 3
+[06-Oct-2015 19:59:15 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/writeFile.php on line 20
+[06-Oct-2015 19:59:25 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/writeFile.php on line 20
+[06-Oct-2015 20:44:08 America/Chicago] PHP Warning:  fread(): Length parameter must be greater than 0 in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/writeFile.php on line 12
+[06-Oct-2015 20:53:46 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/writeFile.php on line 27
+[06-Oct-2015 20:55:19 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/writeFile.php on line 27
+[06-Oct-2015 20:55:26 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/writeFile.php on line 28
+[07-Oct-2015 00:44:03 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:44:05 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:44:07 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:44:44 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:44:46 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:44:48 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:44:49 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:45:26 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:45:27 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:45:28 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:46:59 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:47:01 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:47:59 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:48:00 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:48:02 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:48:26 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:48:52 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:48:52 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:48:52 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:48:52 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:48:52 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:48:52 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:48:54 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:48:54 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:48:54 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:48:54 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:48:54 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:48:54 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:50:19 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:50:19 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:50:19 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:50:19 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:50:19 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:50:20 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:50:21 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:50:21 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:50:21 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:50:21 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:50:21 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:50:21 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:56:00 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:56:00 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:56:00 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:56:00 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:56:00 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:56:00 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:58:38 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:58:38 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:58:38 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:58:38 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:58:38 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:58:38 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:59:02 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 00:59:04 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:00:51 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:00:51 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:00:51 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:03:09 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:03:09 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:03:09 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:03:11 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:03:11 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:03:11 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:03:57 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:03:57 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:03:57 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:03:58 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:03:58 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:03:58 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:03:59 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:03:59 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:03:59 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:04:01 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:04:01 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:04:01 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:04:02 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:04:02 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:04:02 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:05:36 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:05:36 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:05:36 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:05:38 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:05:38 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:05:38 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:06:39 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:06:39 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:06:39 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:06:40 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:06:40 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:06:40 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:07:18 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:07:18 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:07:18 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:08:45 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:08:45 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 01:08:45 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 06:56:53 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 06:56:53 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 06:56:53 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 06:57:33 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 06:57:33 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5
+[07-Oct-2015 06:57:33 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/andymcb/public_html/chipkellygenius.com/chipkellygenius/lib/getTweets.php on line 5

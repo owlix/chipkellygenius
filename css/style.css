@@ -1,0 +1,224 @@
+@import url(https://fonts.googleapis.com/css?family=Fugaz+One|Tauri);
+
+html {
+	border-top:3px solid #44CC44;
+
+}
+
+html, body {
+	color: #44CC44;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	
+font-family: 'Fugaz One', cursive;
+
+
+
+}
+
+.row {
+	min-width: 680px;
+}
+
+a {
+	color: #44CC44
+}
+
+.meter {/* Can be anything */
+	position: relative;
+	background: #44CC44;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 2px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.meter > span {
+  display: block;
+  height: 100%;
+  border-radius: 0px;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ffffff 34%, #44CC44 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(34%,#ffffff), color-stop(100%,#44CC44)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #ffffff 34%,#44CC44 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #ffffff 34%,#44CC44 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #ffffff 34%,#44CC44 100%); /* IE10+ */
+  background: linear-gradient(135deg, #ffffff 34%,#44CC44 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#44CC44',GradientType=1 ); /* IE6-9 fallback on 	horizontal gradient */
+  position: relative;
+  overflow: hidden;
+}
+
+.center {
+	text-align: center;
+}
+
+.container:first-child {
+	margin-top: 5%;
+}
+
+.ch-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+}
+
+.ch-grid:after {
+	clear: both;
+}
+
+.ch-grid li {
+	width: 220px;
+	height: 220px;
+	display: inline-block;
+	margin: 20px;
+	float:left;
+}
+
+.ch-grid li:first-child{float:right;}
+
+
+
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 10%;
+	position: relative;
+	cursor: default;
+	/*box-shadow: 
+		inset 0 0 0 0 rgba(0,0,0, 0.4),
+		inset 0 0 0 16px rgba(255,255,255,0.6),
+		0 1px 2px rgba(0,0,0,0.1);*/
+	transition: all 0.4s ease-in-out;
+}
+
+.ch-img-1 { 
+	background-image: url(../images/genius-1.jpg);
+}
+
+.ch-img-2 { 
+	background-image: url(../images/idiot-1.jpg);
+}
+
+.ch-info {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	opacity: 0;
+	transition: all 0.4s ease-in-out;
+	transform: scale(0);
+	backface-visibility: hidden;
+}
+
+
+.ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin: 0 30px;
+	padding: 96px 0 0 0;
+	height: 110px;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+
+.ch-info p a:hover {
+	color: rgba(0,0,0, 0.8);
+}
+
+.ch-item:hover {
+	box-shadow: 
+		inset 0 0 0 110px #44CC44,
+		inset 0 0 0 16px rgba(255,255,255,0.8),
+		0 1px 2px #44CC44;
+}
+
+.ch-item:hover .ch-info {
+	opacity: 1;
+	transform: scale(1);	
+}
+
+.meter > span {
+	width:100%;
+	height: 40px;
+	position: relative;
+	
+	
+}
+.meter #outer > span:not(#inner) {
+	padding: 0 10px;
+    height: 100%;
+    display: block;
+    font-size: 26px;
+
+}
+.meter #outer > span:nth-child(1) {
+	float: left;
+}
+
+.meter #outer > span:nth-child(2) {
+	float: right;
+	color: #fff;
+}
+
+.meter #outer span#inner {
+	width:2%;
+	height: 100%;
+	background: red;
+	position: absolute;
+	left: 49%;
+	-webkit-transition: all.2s, -webkit-transform .2s ease-in-out;
+    transition: all .2s, transform .2s ease-in-out;
+    opacity:0;
+}
+
+#schedule {width: 40%; margin:-240px auto 0;font-family: 'Tauri', sans-serif;}
+#schedule  h5 {text-transform:uppercase; font-family: 'Fugaz One', cursive;}
+#schedule ul ul {margin: 0;}
+#schedule > ul > li {border-bottom: 1px solid #44CC44;padding: 0 10px;}
+#schedule ul > li, #schedule ul > li >ul > li {list-style: none; text-align: left;text-transform:uppercase; font-size: 14px;}
+#schedule ul > li >ul > li {display: inline-block;}
+/*#schedule ul > li >ul > li:nth-child(1) {float: left;}*/
+#schedule ul > li >ul > li:nth-child(2) {float: right;}
+
+.copy {
+	font-family: 'Tauri', sans-serif;
+	text-align: center;
+	width: 40%;
+	margin: 30px auto 0;
+}
+
+#list {
+	max-height: 120px;
+	overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    background: #fff; 
+    border-radius: 0px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+	background: #44CC44;}
